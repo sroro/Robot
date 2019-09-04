@@ -27,3 +27,5 @@ for presentation in tableau {
 }
 
 pierre.move(direction: .nord)
+pierre.move(direction: .nord)
+pierre.move(direction: .est)

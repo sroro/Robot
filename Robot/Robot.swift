@@ -23,7 +23,21 @@ class Robot {
     }
     
     func move(direction: direction){
-    print("je me deplace vers \(direction)")
-    
+     var position = (x:0,y:0)
+        switch direction {
+        case .nord:
+            position = (x: 1, y:0)
+            print("Je me déplace de \(position)")
+        case .sud:
+            position = (x: -1, y:0)
+            print("Je me déplace de \(position)")
+        case .est:
+            position = (x: 0, y:1)
+            print("Je me déplace de \(position)")
+        case .ouest:
+            position = (x: 0, y:-1)
+            print("Je me déplace de \(position)")
+            
+        }
 }
 }
