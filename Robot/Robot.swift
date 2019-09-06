@@ -23,19 +23,19 @@ class Robot {
         print("Bonjour je m'appelle \(name). J'ai \(life) points de vie et je me déplace à \(vitesse) cases par seconde. Je suis à la case de coordonnées \(position) ")
     }
     
-    func move(direction: direction) {
+    func move(direction: direction, vitesse: Int) {
         switch direction {
         case .nord:
-            position.x += 1
+            position.x += vitesse
             print("Je me déplace de \(position)")
         case .sud:
-            position.x -= 1
+            position.x -= vitesse
             print("Je me déplace de \(position)")
         case .est:
-            position.y += 1
+            position.y += vitesse
             print("Je me déplace de \(position)")
         case .ouest:
-            position.y -= 1
+            position.y -= vitesse
             print("Je me déplace de \(position)")
             
         }

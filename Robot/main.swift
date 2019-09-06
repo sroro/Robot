@@ -24,6 +24,5 @@ for presentation in tableau {
  presentation.introdiuce()
 }
 
-pierre.move(direction: .nord)
-pierre.move(direction: .nord)
-pierre.move(direction: .est)
+pierre.move(direction: .nord, vitesse: 2)
+pierre.move(direction: .est, vitesse: 4)
