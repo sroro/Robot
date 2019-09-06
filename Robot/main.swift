@@ -20,8 +20,6 @@ tableau.append(paul)
 tableau.append(jacques)
 tableau.append(henri)
 
-print(tableau)
-
 for presentation in tableau {
  presentation.introdiuce()
 }
