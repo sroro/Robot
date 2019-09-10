@@ -20,10 +20,5 @@ for presentation in tableau {
     presentation.introdiuce()
 }
 
-pierre.move()
-pierre.move()
-pierre.move()
-pierre.move()
-pierre.move()
-pierre.move()
+pierre.randomMove(times: 5)
 pierre.introdiuce()
