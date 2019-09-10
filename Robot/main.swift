@@ -10,19 +10,20 @@ import Foundation
 
 var tableau = [Robot]()
 
-var pierre = Robot(name: "pierre", direction: .sud)
-var paul = Robot(name: "paul", direction: .nord)
-var jacques = Robot(name: "jacques", direction: .ouest)
-var henri = Robot(name: "henri", direction: .est)
+var pierre = Robot(name: "pierre")
+
 
 tableau.append(pierre)
-tableau.append(paul)
-tableau.append(jacques)
-tableau.append(henri)
+
 
 for presentation in tableau {
- presentation.introdiuce()
+    presentation.introdiuce()
 }
 
-pierre.move(direction: .nord, vitesse: 2)
-pierre.move(direction: .est, vitesse: 4)
+pierre.move()
+pierre.move()
+pierre.move()
+pierre.move()
+pierre.move()
+pierre.move()
+pierre.introdiuce()
